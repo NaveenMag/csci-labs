@@ -27,3 +27,9 @@ def intersect(list1,list2):
         if name in list2:
             goodlist.append(name)
     return goodlist
+def not_in(list1,list2):
+    goodlist = []
+    for name in list1:
+        if name not in list2:
+            goodlist.append(name)
+    return goodlist
