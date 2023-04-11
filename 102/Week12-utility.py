@@ -18,3 +18,6 @@ def score_finder(listplayer,listscore,playername):
         print(f'OUTPUT {listplayer[playerloc]} got a score of {listscore[playerloc]}')
     else:
         print(f'OUTPUT player not found')
+def union(listuno,listdos):
+    listuno = listuno + listdos
+    return listuno
