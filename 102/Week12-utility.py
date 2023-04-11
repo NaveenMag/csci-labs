@@ -21,3 +21,9 @@ def score_finder(listplayer,listscore,playername):
 def union(listuno,listdos):
     listuno = listuno + listdos
     return listuno
+def intersect(list1,list2):
+    goodlist = []
+    for name in list1:
+        if name in list2:
+            goodlist.append(name)
+    return goodlist
