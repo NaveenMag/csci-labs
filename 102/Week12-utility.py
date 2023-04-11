@@ -11,3 +11,10 @@ def find_word_count(list,wordsearch):
         search = search.split()
         numword += search.count(wordsearch)
     return numword
+def score_finder(listplayer,listscore,playername):
+    if playername.title() in listplayer:
+        playername = playername.title()
+        playerloc = listplayer.index(playername)
+        print(f'OUTPUT {listplayer[playerloc]} got a score of {listscore[playerloc]}')
+    else:
+        print(f'OUTPUT player not found')
