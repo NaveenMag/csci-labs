@@ -12,7 +12,7 @@ def load_file(filename): #opens file and reads each line and sets as list
 
 
 def update_string(string1,string2,integer): #large f string that formats the string properly
-    return f'{string1[0:integer]}{string2}{string1[integer + 1:]}'
+    print(f'OUTPUT {string1[0:integer]}{string2}{string1[integer + 1:]}')
 
 
 def find_word_count(list2,wordsearch): #creates a list of split words and then tallys each match
